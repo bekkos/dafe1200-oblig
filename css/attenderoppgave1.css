@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  font-family: 'Merriweather', serif;
   overflow-x: hidden;
 }
 
@@ -72,8 +71,6 @@ h2{
   font-size: 1.2rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-  padding-bottom: 10px;
-    padding-right: 900px
 }
 
 h3 {
@@ -81,8 +78,6 @@ h3 {
   font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-        padding-bottom: 14px;
-    padding-right: 600px;
   text-align: center;
 }
 
@@ -128,15 +123,47 @@ a:hover {
 
 .fp-container{
   background-color: #EEE9F4;
-  position: relative;
-  padding-top: 150px;
-  height: 550px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 50px;
 }
 
+.fp-container h1, .fp-container h2 {
+  padding: 5px 50px;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.fp-container h2 {
+  width: 60%;
+  text-align: center;
+}
+
+.middle-container {
+  width: 50%;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif !important;
+  text-align: center;
+}
+
+.middle-container h3 {
+  width: 100%;
+  text-align: center;
+}
+
+.middle-container p {
+  width: 90%;
+  margin: auto;
+  padding: 10px 30px;
+  line-height: 2;
+}
 
 .bottom-container{
   background-color: #7967c2;
-  padding: 50px 0 20px;
+  padding: 10px 20px;
   text-align: center;
 
 }
@@ -165,7 +192,7 @@ a:hover {
   width: 30%;
   margin: auto;
   text-align: center;
-    line-height: 2
+  line-height: 2;
 }
 
 .smartphone-img {

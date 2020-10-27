@@ -119,7 +119,7 @@
       border-bottom:2px solid #ad9eba
     }
 
-    button{
+    #button{
       float:right;
       padding:8px 12px;
       margin:8px 0 0;
@@ -131,7 +131,7 @@
       transition:all .3s
     }
 
-    button:hover{
+    #button:hover{
       background:#78788c;
       color:#fff
     }
