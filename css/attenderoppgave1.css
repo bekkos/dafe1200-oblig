@@ -130,10 +130,13 @@ a:hover {
   flex-wrap: wrap;
   flex-direction: row;
   padding: 50px;
+  line-height: 2;
 }
 
 .fp-container h1, .fp-container h2 {
   padding: 5px 50px;
+  width: 100%;
+  text-align: center;
   font-family: 'Montserrat', sans-serif !important;
 }
 
